@@ -1,0 +1,18 @@
+:root {
+  --size-1: 5rem;
+  --size-2: 10rem;
+  --size-3: 15rem;
+  --size-4: 20rem;
+  --size-5: 25rem;
+  --size-6: 30rem;
+  --size-7: 35rem;
+  --size-8: 40rem;
+  --size-9: 45rem;
+  --size-10: 50rem;
+  --size-11: 55rem;
+  --size-12: 60rem;
+  --size-13: 65rem;
+  --size-14: 110rem;
+
+  --size-max: var(--size-14);
+}

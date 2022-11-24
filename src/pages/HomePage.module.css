@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  margin: auto;
+  max-width: var(--size-max);
+}
+
+.container > * {
+  flex: 1 1 auto;
+}
+
+.container > *:not(:last-child) {
+  margin-right: var(--spacing-strd-sm);
+}
+
+@media (max-width: 50em) {
+  .container > *:nth-child(2) {
+    margin-right: 0;
+  }
+
+  .container > *:last-child {
+    display: none;
+  }
+}
+
+@media (max-width: 37.5em) {
+  .container > *:first-child {
+    display: none;
+  }
+}

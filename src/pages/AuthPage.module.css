@@ -1,0 +1,14 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin: calc(var(--spacing-strd-sm) * -1);
+  min-height: 90vh;
+  padding-top: var(--spacing-strd-lg);
+  padding-bottom: var(--spacing-strd-lg);
+  background-image: url("../assets/images/patternbg.webp");
+  background-size: 35rem;
+  background-repeat: repeat;
+  background-color: var(--color-brand-400);
+  background-blend-mode: luminosity;
+}

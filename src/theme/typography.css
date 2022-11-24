@@ -1,0 +1,54 @@
+/* quicksand-regular - latin */
+@font-face {
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 400;
+  src: local(""), url("../assets/fonts/quicksand-v24-latin-regular.woff2") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */ url("../assets/fonts/quicksand-v24-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* quicksand-500 - latin */
+@font-face {
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 500;
+  src: local(""), url("../assets/fonts/quicksand-v24-latin-500.woff2") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */ url("../assets/fonts/quicksand-v24-latin-500.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* quicksand-600 - latin */
+@font-face {
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 600;
+  src: local(""), url("../assets/fonts/quicksand-v24-latin-600.woff2") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */ url("../assets/fonts/quicksand-v24-latin-600.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* quicksand-700 - latin */
+@font-face {
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 700;
+  src: local(""), url("../assets/fonts/quicksand-v24-latin-700.woff2") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */ url("../assets/fonts/quicksand-v24-latin-700.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+:root {
+  --font-family-body: "Quicksand", "Segoe UI", sans-serif;
+  --font-family-code: source-code-pro, Menlo, Consolas, monospace;
+
+  --font-size-xs: 1.15rem;
+  --font-size-sm: 1.35rem;
+  --font-size-md: 1.5rem;
+  --font-size-lg: 1.8rem;
+  --font-size-xl: 2.2rem;
+  --font-size-2xl: 2.6rem;
+
+  --font-size-h1: 2.8rem;
+  --font-size-h2: 2.4rem;
+  --font-size-h3: 2.2rem;
+  --font-size-h4: 2rem;
+  --font-size-h5: 1.8rem;
+  --font-size-h6: 1.6rem;
+}

@@ -1,0 +1,5 @@
+:root {
+  --transition-slow: all 200ms ease;
+  --transition-md: all 150ms ease;
+  --transition-fast: all 100ms ease;
+}

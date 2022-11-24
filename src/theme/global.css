@@ -1,0 +1,131 @@
+@import-normalize;
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-size: 62.5%;
+}
+
+body {
+  background-color: var(--color-bg-primary);
+  color: var(--color-text-primary);
+  font-family: var(--font-family-body);
+  font-size: var(--font-size-md);
+  font-weight: 500;
+}
+
+h1 {
+  margin: 0;
+  font-size: var(--font-size-h1);
+}
+
+h2 {
+  font-size: var(--font-size-h2);
+}
+
+h3 {
+  font-size: var(--font-size-h3);
+}
+
+h4 {
+  font-size: var(--font-size-h4);
+}
+
+h5 {
+  font-size: var(--font-size-h5);
+}
+
+h6 {
+  font-size: var(--font-size-h6);
+}
+
+p {
+  line-height: 1.5;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  object-fit: cover;
+  color: var(--color-text-light);
+  font-size: var(--font-size-xs);
+  font-style: italic;
+}
+
+ul,
+li {
+  list-style-type: none;
+}
+
+pre,
+code,
+kbd,
+samp {
+  font-family: var(--font-family-code);
+}
+
+button {
+  border: none;
+  cursor: pointer;
+  line-height: 1;
+  font: inherit;
+}
+
+textarea {
+  resize: vertical;
+  font: inherit;
+}
+
+input,
+textarea,
+select {
+  color: inherit;
+}
+
+a {
+  color: var(--color-link);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+textarea,
+label {
+  transition: var(--transition-fast);
+}
+
+article {
+  transition: var(--transition-md);
+}
+
+a,
+form,
+input,
+select,
+svg {
+  transition: var(--transition-md);
+}
+
+button {
+  transition: var(--transition-slow);
+}
+
+.visually-hidden:not(:focus):not(:active) {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  clip-path: inset(100%);
+  white-space: nowrap;
+}

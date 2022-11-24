@@ -1,0 +1,18 @@
+.container {
+  display: block;
+  margin: auto;
+  height: var(--size-3);
+}
+
+.sm {
+  width: 1.8rem;
+  height: 1.8rem;
+}
+
+.light {
+  stroke: var(--color-white);
+}
+
+.dark {
+  stroke: var(--color-black);
+}

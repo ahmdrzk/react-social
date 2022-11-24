@@ -1,0 +1,29 @@
+.backdrop {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: var(--spacing-strd-xs);
+  background-color: rgba(9, 2, 77, 0.7);
+}
+
+.container {
+  flex: 1 1 auto;
+  margin: auto;
+  max-width: var(--size-12);
+  max-height: 80vh;
+  overflow: auto;
+}
+
+.heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: var(--spacing-strd-xs);
+  color: var(--color-brand-400);
+  text-transform: capitalize;
+}

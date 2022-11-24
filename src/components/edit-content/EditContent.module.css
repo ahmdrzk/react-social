@@ -1,0 +1,42 @@
+.container {
+  padding: var(--spacing-strd-sm) 0;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.form > *:not(:last-child) {
+  margin-bottom: var(--spacing-4);
+}
+
+.label {
+  padding: 0 var(--spacing-2);
+  font-weight: 600;
+}
+
+.textarea {
+  width: 100%;
+  border: var(--border-2px);
+  border-radius: var(--radius-sm);
+  padding: var(--spacing-4);
+}
+
+.btnsContainer {
+  padding: 0 var(--spacing-2);
+}
+
+.btnsContainer > * {
+  margin-top: var(--spacing-2);
+  margin-right: var(--spacing-strd-sm);
+}
+
+.charsCounter {
+  font-size: var(--font-size-sm);
+}
+
+.charsCounterErr {
+  color: var(--color-error);
+}

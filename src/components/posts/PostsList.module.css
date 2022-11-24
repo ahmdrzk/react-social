@@ -1,0 +1,28 @@
+.container {
+  margin: 0 auto;
+  max-width: var(--size-12);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: var(--spacing-strd-xs);
+  color: var(--color-brand-500);
+}
+
+.header > svg {
+  font-size: 2.5rem;
+}
+
+.postsList > * {
+  margin-bottom: var(--spacing-strd-xs);
+}
+
+.noPostsPara {
+  text-align: center;
+}
+
+.loadMoreBtnContainer {
+  text-align: center;
+}

@@ -1,0 +1,5 @@
+:root {
+  --border-1px: 0.1rem solid var(--color-border);
+  --border-2px: 0.2rem solid var(--color-border);
+  --border-4px: 0.4rem solid var(--color-border);
+}

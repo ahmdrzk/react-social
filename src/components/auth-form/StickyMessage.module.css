@@ -1,0 +1,32 @@
+.container {
+  border: var(--border-1px);
+  border-color: var(--color-brand-400);
+  padding: var(--spacing-strd-xs);
+  background-color: var(--color-bg-secondary);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: var(--spacing-4);
+}
+
+.title {
+  color: var(--color-brand-500);
+  font-weight: bold;
+}
+
+.closeIcon > svg {
+  font-size: 1.5rem;
+}
+
+.closeIcon:not(:hover) {
+  color: var(--color-text-light);
+}
+
+.content {
+  color: var(--color-text-secondary);
+  font-weight: 600;
+  text-align: left;
+}

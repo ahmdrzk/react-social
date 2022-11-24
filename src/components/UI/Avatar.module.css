@@ -1,0 +1,23 @@
+.avatar {
+  border-radius: var(--radius-full);
+}
+
+.avatarBorder {
+  border: var(--border-4px);
+  border-color: var(--color-white);
+}
+
+.rem10 {
+  width: 10rem;
+  height: 10rem;
+}
+
+.rem6 {
+  width: 6rem;
+  height: 6rem;
+}
+
+.rem4 {
+  width: 4rem;
+  height: 4rem;
+}

@@ -1,0 +1,42 @@
+.container {
+  display: flex;
+  align-items: center;
+  padding: var(--spacing-strd-xs) var(--spacing-strd-sm);
+}
+
+.container:hover {
+  background-color: var(--color-bg-primary);
+}
+
+.textContainer {
+  margin-right: var(--spacing-4);
+  margin-left: var(--spacing-4);
+}
+
+.textContainer > *:first-child {
+  display: block;
+  margin-bottom: var(--spacing-2);
+}
+
+.textContainer > *:nth-child(2) {
+  color: var(--color-text-light);
+  font-size: var(--font-size-sm);
+}
+
+.followBtn {
+  margin-left: auto;
+  border: var(--border-1px);
+  border-radius: var(--radius-md);
+  padding: var(--spacing-3);
+  color: var(--color-brand-400);
+}
+
+.followBtn:hover {
+  background-color: var(--color-brand-300);
+  color: var(--color-white);
+}
+
+.followBtnFollowed {
+  background-color: var(--color-brand-400);
+  color: var(--color-white);
+}

@@ -1,0 +1,26 @@
+.header {
+  box-shadow: var(--shadow-md);
+  padding: var(--spacing-strd-sm);
+  background-color: var(--color-white);
+}
+
+.main {
+  padding: var(--spacing-strd-sm);
+}
+
+.skipToMain {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -100%);
+  z-index: var(--zi-skipToMain);
+  border: var(--border-4px);
+  padding: var(--spacing-strd-sm);
+  background-color: var(--color-white);
+  font-weight: bold;
+  transition: var(--transition-fast);
+}
+
+.skipToMain:focus {
+  transform: translate(-50%, 0);
+}

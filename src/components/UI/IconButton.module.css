@@ -1,0 +1,24 @@
+.container {
+  display: flex;
+  align-items: center;
+  padding: var(--spacing-2);
+  background-color: transparent;
+}
+
+.container:hover {
+  color: var(--color-brand-300);
+}
+
+.container > svg {
+  font-size: 2rem;
+}
+
+.label {
+  margin-left: var(--spacing-2);
+  font-size: var(--font-size-sm);
+}
+
+.container:disabled {
+  pointer-events: none;
+  background-color: var(--color-white);
+}

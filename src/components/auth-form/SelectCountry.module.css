@@ -1,0 +1,28 @@
+.select {
+  width: 100%;
+  max-width: var(--size-7);
+  border: var(--border-2px);
+  border-radius: var(--radius-sm);
+  padding: var(--spacing-6) var(--spacing-3);
+  background-color: var(--color-bg-primary);
+  color: var(--color-text-light);
+  font-size: var(--font-size-sm);
+}
+
+.select:focus {
+  border-color: var(--color-brand-400);
+}
+
+.select > *:not(:first-child) {
+  color: var(--color-text-primary);
+}
+
+.error {
+  display: block;
+  margin-top: var(--spacing-1);
+  margin-bottom: calc(var(--spacing-2) * -1);
+  margin-left: var(--spacing-2);
+  color: var(--color-error);
+  font-size: var(--font-size-xs);
+  text-align: left;
+}

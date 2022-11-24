@@ -1,0 +1,10 @@
+.container {
+  overflow: hidden;
+  box-shadow: var(--shadow-md);
+  border-radius: var(--radius-sm);
+  background-color: var(--color-white);
+}
+
+.padding {
+  padding: var(--spacing-strd-md);
+}

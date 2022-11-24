@@ -1,0 +1,23 @@
+:root {
+  --spacing-1: 0.2rem;
+  --spacing-2: 0.4rem;
+  --spacing-3: 0.6rem;
+  --spacing-4: 0.8rem;
+  --spacing-5: 1rem;
+  --spacing-6: 1.2rem;
+  --spacing-7: 1.4rem;
+  --spacing-8: 1.6rem;
+  --spacing-9: 1.8rem;
+  --spacing-10: 2rem;
+  --spacing-11: 2.2rem;
+  --spacing-12: 2.4rem;
+  --spacing-13: 2.6rem;
+  --spacing-14: 2.8rem;
+  --spacing-15: 3rem;
+  --spacing-16: 4rem;
+
+  --spacing-strd-xs: var(--spacing-6);
+  --spacing-strd-sm: var(--spacing-8);
+  --spacing-strd-md: var(--spacing-10);
+  --spacing-strd-lg: var(--spacing-12);
+}

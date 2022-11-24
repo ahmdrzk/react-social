@@ -1,0 +1,60 @@
+.container {
+  display: flex;
+  margin: auto;
+  max-width: var(--size-12);
+}
+
+.container > * {
+  flex: 1 1 0;
+}
+
+.aside {
+  max-width: 12rem;
+}
+
+.aside li:not(:last-child) {
+  margin-bottom: var(--spacing-1);
+}
+
+.navTab {
+  display: block;
+  position: relative;
+  border-top-left-radius: var(--radius-sm);
+  border-bottom-left-radius: var(--radius-sm);
+  padding: var(--spacing-strd-md);
+  color: var(--color-text-primary);
+  font-weight: bold;
+  text-align: center;
+}
+
+.navTab:hover:not(.navTabSelected) {
+  background-color: var(--color-white);
+}
+
+.navTabSelected {
+  box-shadow: var(--shadow-md);
+  background-color: var(--color-white);
+}
+
+.navTabSelected::after,
+.navTab:hover:not(.navTabSelected)::after {
+  content: "";
+  position: absolute;
+  right: -1rem;
+  top: 0;
+  bottom: 0;
+  width: 1rem;
+  height: 100%;
+  background-color: var(--color-white);
+}
+
+.formContainer {
+  box-shadow: var(--shadow-md);
+  border-radius: var(--radius-sm);
+  padding: var(--spacing-strd-lg) var(--spacing-strd-md);
+  background-color: var(--color-white);
+}
+
+.formContainer > form {
+  margin: auto;
+}

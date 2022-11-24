@@ -1,0 +1,27 @@
+.container {
+  max-width: var(--size-7);
+  width: 100%;
+  padding: var(--spacing-16) var(--spacing-strd-md);
+  background-color: var(--color-white);
+  text-align: center;
+}
+
+.container > *:not(:last-child) {
+  margin-bottom: var(--spacing-strd-sm);
+}
+
+.container > .heading {
+  margin-bottom: var(--spacing-strd-lg);
+}
+
+.container > *:nth-child(2) {
+  margin-bottom: var(--spacing-strd-lg);
+}
+
+.btn {
+  width: 100%;
+}
+
+.container > .switch {
+  margin-bottom: var(--spacing-4);
+}

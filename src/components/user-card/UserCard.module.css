@@ -1,0 +1,59 @@
+.container {
+  position: sticky;
+  top: var(--spacing-strd-sm);
+  max-width: var(--size-5);
+  min-width: var(--size-4);
+  border-top: var(--border-4px);
+  border-top-color: var(--color-brand-400);
+  border-bottom: var(--border-4px);
+  border-bottom-color: var(--color-brand-400);
+}
+
+.background {
+  display: flex;
+  justify-content: center;
+  height: 8rem;
+  padding-top: 3rem;
+  background-image: url("../../assets/images/patternbg.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: var(--color-brand-400);
+  background-blend-mode: luminosity;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: calc(5rem + var(--spacing-strd-md));
+  padding-right: var(--spacing-strd-sm);
+  padding-bottom: var(--spacing-strd-md);
+  padding-left: var(--spacing-strd-sm);
+}
+
+.country {
+  margin-top: var(--spacing-2);
+  color: var(--color-text-light);
+}
+
+.stats {
+  display: flex;
+  margin-top: var(--spacing-strd-md);
+}
+
+.stats > *:not(:last-child) {
+  margin-right: var(--spacing-strd-sm);
+}
+
+.statsItem {
+  text-align: center;
+}
+
+.statsItem > *:first-child {
+  display: block;
+  margin-bottom: var(--spacing-2);
+}
+
+.statsItem > *:nth-child(2) {
+  font-weight: 600;
+}
